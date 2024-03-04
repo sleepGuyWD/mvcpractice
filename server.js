@@ -9,7 +9,6 @@ const PORT = process.env.PORT
 const connectDB = require("./config/database")
 const homeRoutes = require('./routes/home')
 
-//todo - Connect to Database
 connectDB()
 
 app.set("view engine", "ejs")
